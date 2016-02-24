@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+    <Editora id="3" 
+             nome="Chespirito" 
+             email="tcc@ifpb.edu.br" 
+             site="ifpb.edu.br" 
+             cidade="Cajazeiras" 
+             rua="Rua Algo"
+             bairro="Bairro lll" 
+             numero="23" />
+</dataset>
+
+ 
+ 

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+    <Livro id="1" 
+           titulo = "ipad" 
+           ISBN="11122" 
+           valor="22" 
+           anoPublicacao="2012" 
+           origem="Nacional" 
+           editora_id="3"/>
+</dataset>
+ 

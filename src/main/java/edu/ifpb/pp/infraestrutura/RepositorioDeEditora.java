@@ -12,11 +12,11 @@ public class RepositorioDeEditora{
 
     private GenericDAO<Editora> dao;
 
-    public RepositorioDeEditora() {
+    protected RepositorioDeEditora() {
         this(new GenericRepository<>(Editora.class));
     }
 
-    protected RepositorioDeEditora(GenericDAO<Editora> dao) {
+    public RepositorioDeEditora(GenericDAO<Editora> dao) {
         this.dao = dao;
     }
     
@@ -24,7 +24,7 @@ public class RepositorioDeEditora{
         return dao.save(editora);
     }
 
-    public Iterator<Editora> listarPessoas(){
+    public Iterator<Editora> listarEditora(){
         return dao.all().iterator();
     }
 
